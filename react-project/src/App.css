@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/*  */
+.nav-bar-wrapper a {
+  padding-left: 30px;
+  color: aliceblue;
+  text-decoration: none;
+}
+.delete{
+  background-color:rgb(182, 36, 36);
+   cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  padding: 4px;
+}
+.update{
+  background-color:rgb(9, 129, 43);
+   cursor: pointer;
+   margin-left: 8px;
+  border-radius: 4px;
+  color: white;
+  padding: 4px;
+}
+/* app.css */
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Input styling */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Image styling */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Header styling (assuming you have a Header component) */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* app.css */
+
+/* ... other styles */
+
+/* Input container styling */
+.input-container {
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+.product-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* ... other styles */
+
+
+
+
+/*  */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
