@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        
         {/* <h1>E- com project</h1> */}
         <Routes>
           
@@ -24,8 +23,6 @@ function App() {
           <Route path='/search' element={< Protected Cmp={SearchComponent}/>} />
           <Route path='/register' element={<Register/>} />
           <Route path='/' element={<ProductList/>} />
-           
-          
         </Routes>
       </BrowserRouter>
     </div>
